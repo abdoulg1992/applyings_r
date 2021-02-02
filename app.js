@@ -1,5 +1,5 @@
 
-/*--- 
+
 
 var x = 10;
 var y= x + 125 * 2;
@@ -57,7 +57,7 @@ if (status == 1) {
 } else {
     alert(msg = "Offline")
 }
--------*/
+
 
 var day = 50;
 var weekDay = "First Day of The Week";
