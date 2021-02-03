@@ -1,5 +1,5 @@
 
-
+/*----
 
 var x = 10;
 var y= x + 125 * 2;
@@ -13,7 +13,7 @@ y = "10";
 console.log( x === y);
 document.write(y === x);
 
-
+//----- The if else statment ------//
 var age = 18;
 if (age < 18) {
     alert("your are too young! come back next year")
@@ -58,7 +58,7 @@ if (status == 1) {
     alert(msg = "Offline")
 }
 
-
+//----- The Switch conditional statement ------//
 var day = 50;
 var weekDay = "First Day of The Week";
 switch (day) {
@@ -86,3 +86,53 @@ switch(color) {
     default:
         document.write("Sorry!! No such color exist");
 }
+
+//----- The For Loop -----//
+for ( i=1;i<=5; i++) {
+    document.write(i+ "<br/>");
+}
+//---- Another way of doing the for loop syntax ----//
+var i = 1;
+for (;i<=5; i++) {
+    alert("another way of for syntax");
+}
+
+//---- Another way of doing the for loop syntax ----//
+// while loop
+var i = 0;
+while ( i <= 20 ) {
+    if (i==10) {
+        document.write( "Floor" + i + "Take a break please")
+      //  break;
+    } else if (i==19){
+        document.write("This is the Last floor, get out please")
+    } else {
+        document.write("Floor" + " ")
+    }
+    document.write(i + "<br/>"); i++;
+}
+
+// Do....while Loop
+var i = 20
+do {
+    document.write(i + "<br />"); i++;
+}
+while(i<=25);
+
+// break statement
+for (i=1; i<=100; i++) {
+    if (i==50) {
+        break;
+    }
+    document.write(i + "<br />");
+}
+
+// Continue statement
+var x = 0;
+while(x<6) {
+  x++;
+}
+document.write(x);
+------*/
+
+//var day = 0;
