@@ -136,3 +136,21 @@ document.write(x);
 ------*/
 
 //var day = 0;
+
+var person = {
+    name:"John",
+    age:"31",
+    favColor:"green",
+    height: 183
+};
+var x = person.age;
+console.log(x);
+
+document.write(person.name.length);
+
+function person(name, age, color) {
+    this.name = name;
+    this.age = age;
+    this.color = color;
+}
+
